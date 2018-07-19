@@ -43,7 +43,7 @@ To enabled Password authentication, set the following in the configuration:
 
 .. code-block:: bash
 
-    [api]
+    [webserver]
     auth_backend = airflow.contrib.auth.backends.password_auth
 
 It's usage is similar to the Password Authentication used for the Web interface.
